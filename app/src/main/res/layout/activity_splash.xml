@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,26 +8,57 @@
     android:background="#000000"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/dashboard"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="t!!!"
-        android:textSize="40sp"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#FFFFFF"
+        android:text="Dashboard"
+        android:layout_marginBottom="100sp"
         android:layout_centerHorizontal="true"
+/>
 
-        />
+   <Button
+        android:id="@+id/benchPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bench Press" />
 
-    <ImageView
-        android:id="@+id/mikeTyson"
-        android:layout_width="wrap_content"
-        android:layout_height="650sp"
-        android:cropToPadding="false"
-        app:srcCompat="@drawable/miketyson"
-        />
+     <Button
+        android:id="@+id/overheadPress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overhead Press" />
 
+    <Button
+        android:id="@+id/deadLift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deadlift" />
 
+     <Button
+        android:id="@+id/crunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crunch" />
 
+     <Button
+        android:id="@+id/legCrunch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Leg Crunch" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/smithSquat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smith Squat" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:text="Exit" />
+
+</android.support.v7.widget.LinearLayoutCompat>

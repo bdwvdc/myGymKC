@@ -8,7 +8,14 @@ import android.widget.Button;
 
 public class Splash extends AppCompatActivity {
 
-
+    private Button dashboard;
+    private Button benchPress;
+    private Button overheadPress;
+    private Button deadLift;
+    private Button crunch;
+    private Button legCrunch;
+    private Button smithSquat;
+    private Button exit;
 
 
     @Override
