@@ -37,21 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 openSplash();
             }
         });
-        button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openSplash();
-            }
-        });
-        button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openSplash();
-            }
-        });
-
     }
 
     public void openSplash(){
