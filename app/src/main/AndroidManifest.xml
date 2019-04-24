@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dashboard"></activity>
+        <activity android:name=".smithSquat"></activity>
+        <activity android:name=".overheadPress" />
+        <activity android:name=".benchPress" />
+        <activity android:name=".deadLift" />
+        <activity android:name=".legCrunch" />
+        <activity android:name=".crunch" />
+        <activity android:name=".Dashboard" />
         <activity android:name=".Splash" />
         <activity android:name=".MainActivity">
             <intent-filter>

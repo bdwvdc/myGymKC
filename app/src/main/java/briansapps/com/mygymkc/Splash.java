@@ -47,7 +47,7 @@ public class Splash extends AppCompatActivity {
         benchPress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //BenchPress();
+                benchpress();
             }
 
         });
@@ -56,7 +56,7 @@ public class Splash extends AppCompatActivity {
         overheadPress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //exit();
+                overheadpress();
             }
 
         });
@@ -65,7 +65,7 @@ public class Splash extends AppCompatActivity {
         deadLift.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //exit();
+                deadlift();
             }
 
         });
@@ -74,7 +74,7 @@ public class Splash extends AppCompatActivity {
         crunch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //exit();
+                Crunch();
             }
 
         });
@@ -83,7 +83,7 @@ public class Splash extends AppCompatActivity {
         legCrunch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //exit();
+                legcrunch();
             }
 
         });
@@ -92,7 +92,7 @@ public class Splash extends AppCompatActivity {
         smithSquat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //exit();
+                smithsquat();
             }
 
         });
@@ -111,5 +111,42 @@ public class Splash extends AppCompatActivity {
         Intent intent = new Intent(this, Dashboard.class);
         startActivity(intent);
     }
+    public void benchpress() {
+
+        Intent intent = new Intent(this, benchPress.class);
+        startActivity(intent);
+    }
+
+    public void overheadpress() {
+
+        Intent intent = new Intent(this, overheadPress.class);
+        startActivity(intent);
+    }
+
+    public void deadlift() {
+
+        Intent intent = new Intent(this, deadLift.class);
+        startActivity(intent);
+    }
+
+    public void Crunch() {
+
+        Intent intent = new Intent(this, crunch.class);
+        startActivity(intent);
+    }
+
+    public void legcrunch() {
+
+        Intent intent = new Intent(this, legCrunch.class);
+        startActivity(intent);
+    }
+
+    public void smithsquat() {
+
+        Intent intent = new Intent(this, smithSquat.class);
+        startActivity(intent);
+    }
+
+
 
 }
