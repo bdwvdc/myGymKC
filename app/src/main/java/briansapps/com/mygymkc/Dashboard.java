@@ -6,10 +6,12 @@ import android.os.Bundle;
 
 public class Dashboard extends AppCompatActivity {
 
+    DatabaseHelper myDB;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        myDB = new DatabaseHelper(this);
     }
 
     public void Splash() {

@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+
+
 import briansapps.com.mygymkc.R;
 import briansapps.com.mygymkc.Splash;
 
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Splash.class);
         startActivity(intent);
     }
+
 
 
 
